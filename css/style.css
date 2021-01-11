@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Mulish", sans-serif;
+   }
+   .header-image{
+    height: 100vh;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #0a0a0b;
+    overflow: hidden;
+    margin: 0 auto;
+   }
+
+   .flex-header{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: flex-start;
+       width: 80%;
+       border: 1px solid salmon;
+       margin: auto;
+   }
+
+   .logo{
+   border: 1px solid salmon;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    
+   }
+.flex-button {
+    color: white;
+    padding: 20px;
+    transition:0.2s ;
+    background: yellowgreen;
+
+}
+   .heading-primary{
+    font-size: 5.5rem;
+    line-height: 1;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1;
+    max-width: 83.9rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+   }
+
+   .cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+   }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+   .section3{
+    padding: 40px 80px;
+   }
+    
+   .section3 h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+   }
+    
+   .flex-container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   ul li{
+       display: flex;
+   }
+    
+   .flex2{
+    display: flex;
+    flex-wrap: wrap;
+   }
+    
+   .miniflex2{
+    padding: 80px 50px;
+    width: 40%;
+   }
+    
+   @media screen and (max-width:991px){
+    
+    .flex-container{
+    flex-direction: column;
+    }
+
+    
